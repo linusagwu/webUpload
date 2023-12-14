@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', Sans-Serif;
+    box-sizing: border-box;
+}
+/*-----------------container stlying----------------
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(189, 52, 52);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*-----------------container stlying end ----------------*/
+
+.C_centered 
+{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  
+}
+
+.Do_centered
+{
+  position: absolute;
+  top: 70%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+body 
+/{
+   background-image: url('https://cdn3.sportngin.com/attachments/photo/4608/4432/CUW_Logo_large.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+}
+
+.nnavbar 
+{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nnavbar a 
+{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mdropdown 
+{
+  float: left;
+  overflow: hidden;
+}
+
+.mdropdown .dropbtn 
+{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.nnavbar a:hover, .mdropdown:hover .dropbtn 
+{
+  background-color: red;
+}
+
+.mdropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #4f85e2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.mdropdown-content a 
+{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.mdropdown-content a:hover
+{
+  background-color: #ddd;
+}
+
+.mdropdown:hover .mdropdown-content 
+{
+  display: block;
+}
+div.centered1 
+{
+  text-align: center;
+}
+ul.myUL 
+{
+  display: inline-block;
+  text-align: left;
+}
+.fa-angle-right
+{
+    float: right;
+}
+
+.mdropdown_content_2
+{
+    display: none;
+}
+.hover_me:hover .mdropdown_content_2
+{
+    position: absolute;
+    display: block;
+    margin-top: -55px;
+    margin-left: 200px;
+    background-color: #4f85e2;
+}

@@ -1,0 +1,195 @@
+/* --------------------------------- footer css start here ------------------------------------------ */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', Sans-Serif;
+  box-sizing: border-box;
+}
+.Footer{
+  position: relative;
+  margin: 0;
+  bottom: 0;
+  
+  width: 100%;
+  padding: 10px 20%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+
+
+
+
+.Footer div{
+  text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+}
+.Footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none; 
+  border: none;
+}
+form button{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.social-icons{
+  margin-top: 30px;
+}
+.social-icons i{
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+/* --------------------------------- footer css ends here ------------------------------------------ */
+
+/* --------------------------------- cuw logo and welcome to falcon fitness css start here ------------------------------------------ */
+
+.Head{
+  width: 100%;
+  padding: 20 100;
+  background: #4f85e2;
+  color: #efefef;
+  display: flex;
+  align-items: center;
+
+}
+
+.Head div{
+  text-align: center;
+}
+.col_2{
+  flex-grow: 2;
+}
+
+.Head div h1{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+
+/* ------------------------------------------ layout element starts here ------------------------------------------------------------ ---*/ 
+
+*{
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Style the header */
+header {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+
+   
+}
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #4f85e2;
+  padding: 20px;
+  text-align:center;
+  font-size: 30px;
+ 
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align:center;
+  
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/* ------------------------------------------ Login------------------------------------------------------------ ---*/ 
+
+/* ------------------------------------------ Login------------------------------------------------------------ ---*/ 
+ .navigation .btnLogin_popup
+{
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: .5s;
+  /*float: right;*/}
+
+.navigation .btnLogin_popup:hover{
+  background: #fff;
+  color: #162938;
+}
